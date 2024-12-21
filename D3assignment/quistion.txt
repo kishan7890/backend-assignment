@@ -1,0 +1,19 @@
+HTTP
+This assignment helps in exploration of HTTP module in NodeJs, you are open to refer all the documentations
+
+Instructions
+Explore HTTP module and then create an http server, run the server on the port 8080
+
+Create End Points/Routes like /, /aboutus, /contactus, /index
+
+Send the response as welcome to Home Page for / route
+
+Send the response as welcome to About Page in h3 tag for /aboutus route
+
+Send the response as contact us at www.masaichool.com in a tag for /aboutus route, on click on the anchir tag, it should open Masai Website
+
+Incase of /index route, read the index.js file and send the same as response
+
+Incase of any other routes not specified as above, should give the response as 404 Not Found
+
+Ensure you are sending proper status code along with response
