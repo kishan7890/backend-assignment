@@ -1,0 +1,13 @@
+HTTP Signup Form
+This assignment helps in exploration of HTTP module in NodeJs, you are open to refer all the documentations
+
+Instructions
+Explore HTTP module and then create an http server, run the server on the port 8080
+
+Create End Points/Routes like /signup,
+
+Render an html form that collects username and password for /signup route
+
+Onclick of signup button in the form make a POST request, store the username and password given by user in user.txt file and provide them response as Thank You for Signup...!!!
+
+Create another Route /allusers, where you need to display all the users stored in user.txt file, take care that password should not be displayed.
