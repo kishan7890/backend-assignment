@@ -1,0 +1,28 @@
+Node.js Basic Math Operations
+This project demonstrates basic arithmetic operations in Node.js using separate modules for each operation.
+
+Instructions
+Study the sum.js and index.js, get the context of exporting and importing
+
+Create a new file called multiplication.js and add the following code, similar to sum.js:
+
+Modify index.js to include and use the multiplication function:
+
+// index.js
+const sum = require("./sum");
+const multiply = require("./multiplication");
+
+let sumA = 3;
+let sumB = 5;
+let sumResult = sum(sumA, sumB);
+console.log(sumResult);
+
+let mulA = 4;
+let mulB = 6;
+let mulResult = multiply(mulA, mulB);
+console.log(mulResult);
+Create two more operation files (subtraction.js and division.js) and repeat the process above same as of Multiplication, take of erros like dividing by zero.
+
+Run the code in terminal by node index.js,
+
+Think of whether commands can given in the terminal itself like node index.js sum 3 5...?, explore the command line arguments
