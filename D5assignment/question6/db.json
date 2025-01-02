@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "sunil sahu",
+      "city": "chikiti"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "name": "sunil sahu",
+      "city": "chikiti"
+    }
+  ]
+}

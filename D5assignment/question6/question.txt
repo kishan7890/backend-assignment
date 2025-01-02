@@ -1,0 +1,15 @@
+Express Routing
+This assignment helps in exploration of Express module in NodeJs, you are open to refer all the documentations
+
+Instructions
+You need to build a simple Express.js web server that performs the following tasks:
+
+Create an Express.js application that listens on port 3000. The server should print "Server is running on http://localhost:3000" when it starts. Handle Different Routes:
+
+You need to perfom CRUD operations of both Users and Todos
+
+Implement express router and seggregate both Users and Todos operations, maintain the index.js neat and clean
+
+Any request that is related to Users shall go to /users/ route also Any request that is related to Todos shall go to /todos/ route
+
+Update and Delete of Users should happen with params and id need to be used
